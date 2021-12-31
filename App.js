@@ -1,16 +1,16 @@
-import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import Wallet from "./app/screens/Wallet";
+import AddCash from "./app/screens/AddCash";
+import PaymentScreen from "./app/screens/PaymentScreen";
+import WalletScreen from "./app/screens/WalletScreen";
 
 export default function App() {
-  return <Wallet />;
+  return (
+    <View>
+      {/* <WalletScreen /> */}
+      {/* <AddCash /> */}
+      <PaymentScreen/>
+    </View>
+  );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
+const styles = StyleSheet.create({});

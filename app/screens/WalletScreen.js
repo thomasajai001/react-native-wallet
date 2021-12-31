@@ -7,7 +7,7 @@ import OfferItem from "../components/OfferItem";
 import TotalCash from "../components/TotalCash";
 import WinningsCash from "../components/WinningsCash";
 
-export default function Wallet() {
+export default function WalletScreen() {
   return (
     <View style={styles.background}>
       <View style={styles.walletHeader}>
